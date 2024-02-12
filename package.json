@@ -4,7 +4,8 @@
   "description": "crud-api",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx nodemon ./src/index.ts"
+    "start:dev": "npx nodemon ./src/index.ts",
+    "start:prod": "webpack"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint": "^8.56.0",
     "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3",
